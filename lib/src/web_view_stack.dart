@@ -34,7 +34,7 @@ class _WebViewStackState extends State<WebViewStack> {
         },
       ))
       ..loadRequest(
-        Uri.parse('google.com'),
+        Uri.parse('http://54.168.119.127'),
       )
       ..setJavaScriptMode(JavaScriptMode.unrestricted);
   }
